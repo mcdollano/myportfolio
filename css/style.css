@@ -7,6 +7,35 @@ body, html {
     text-align: center;
 }
 
+a:hover {
+    text-decoration: none !important;
+}
+
+a:active {
+    text-decoration: none !important;
+}
+
+a:visited {
+    text-decoration: none !important;
+}
+
+.triggered a:target {
+    background-color: red;
+}
+
+.triggered text:hover {
+    background-color: #608900 !important;
+    padding: 10px !important;
+    transition: 0.5s;
+    color: white !important;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.text1 {
+	margin-left: 20%;
+}
+
 .text-center {
 	background-color: #608900;
 	margin-bottom: 20px;
@@ -46,15 +75,16 @@ body, html {
     display: block;
     background-color: white;
     position: fixed;
-    opacity: 0.8;
+    /*opacity: 0.8;*/
   	top: 0;
  	left: 0;
   	z-index: 999;
-  	padding-bottom: 5px;
+  	padding-bottom: 10px;
 }
 
 .logo {
-	width: 200px;
+	width: 150px;
+	padding-top: 10px;
 	/*margin-right: 45%;*/
 
 }
@@ -74,7 +104,7 @@ body, html {
 .triggered text {
 	color: black !important;
 	text-decoration: none !important;
-	margin-right: 5%;
+	margin-right: 3%;
 	font-size: 15px;
 }
 
@@ -331,8 +361,8 @@ footer {
 }
 
 @media screen and (max-width: 1085px) and (min-width: 951px) {
-	.triggered {
-	padding-right: 0px;
+	.nav_contact {
+	/*margin-right: 500px;*/
 	}
 
 	.logo {
@@ -358,23 +388,30 @@ footer {
 	top: 30%;
 	text-align: center;
 	line-height: 40px;
+	}
 
+	.text1 {
+		margin-left: 5%;
 	}
 }
 
 @media screen and (min-width: 719px) {
 	.logo {
-	margin-right: 40%;
+	margin-right: 15%;
 	}
 
 	.triggered text {
 		font-size: 15px;
 	}
 	
+	.triggered span {
+		padding-right: 200px;
+	}
+
     .caption_container {
 	position: absolute;
 	right: 12%;
-	top: 30%;
+	top: 38%;
 	text-align: center;
 	line-height: 40px;
 
@@ -398,7 +435,7 @@ footer {
     }
 
    .caption_container {
-    	top: 35%;
+    	top: 40%;
   		left: 50%;
   		transform: translate(-50%, -50%);
   		line-height: 50px;
@@ -410,11 +447,20 @@ footer {
     }
 
 	.caption_1, .caption_3  {
-		font-size: 20px;
+		font-size: 15px;
+		line-height: 5px;
 	}
 
 	.caption_2 {
 		font-size: 60px;
+	}
+
+	.text1 {
+		margin-left: 2%;
+	}
+
+	.triggered text {
+		font-size: 12px;
 	}
 }
 
@@ -430,16 +476,17 @@ footer {
 
 	.wrapper {
 	padding: 2%;
+	/*margin-bottom: 100px;*/
+
 	}
 
 	#landing_pic {
     	display: none;
     }
 	
-
    .caption_container {
     	top: 35%;
-  		left: 40%;
+  		left: 45%;
   		transform: translate(-50%, -50%);
   		text-align: center;
   		padding-top: 20%;
@@ -461,11 +508,21 @@ footer {
 		font-size: 50px;
 		line-height: 50px;
 	}
+
+	.image_container {
+		height: 70%;
+	}
+
+	.caption_container {
+		margin-top: 10%;
+	}
+
+	
 }
 
 	@media screen and (max-width: 320px) {
 	.logo {
-	width: 100px;
+	display: none;
 	margin-right: 5%;
 	}
 
@@ -526,6 +583,15 @@ footer {
 	.footer_container p {
 		font-size: 12px;
 	}
+
+	.image_container {
+		height: 70%;
+	}
+
+	.caption_container {
+		margin-top: 10%;
+	}
+
 }
 
   
