@@ -381,27 +381,34 @@ footer {
 
 }
 
-@media screen and (min-width: 951px) {
-    .aboutme_pic {
-    	display: none;
-    }
 
-}
-
-@media screen and (max-width: 1085px) and (min-width: 951px) {
-	.nav_contact {
-	/*margin-right: 500px;*/
+@media screen and (max-width: 1025px) and (min-width: 769px) {
+	#landing_pic {
+		display: none;
 	}
 
 	.logo {
-		margin-right: 0;
+		width: 200px;
+	}
+
+	.caption_container {
+	/*position: absolute;*/
+	right: 10%;
+	top: 5px;
+	text-align: center;
+	line-height: 50px;
+	}
+
+	.caption_2 {
+		font-size: 60px;
+	}
+
+	.caption_1, .caption_3 {
+		line-height: 60px;
 	}
 }
 
-
-
-
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 768px) {
 	.logo {
 	margin-right: 15%;
 	}
