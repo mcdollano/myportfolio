@@ -682,7 +682,7 @@ footer {
 	.caption_3 {
 		font-size: 10px;
 		line-height: 5px;
-		padding-right: 10%;
+		padding-right: 8%;
 
 	}
 
@@ -693,7 +693,7 @@ footer {
 	}
 
 	.hire_btn {
-		margin-right: 50%;
+		margin-right: 200px;
 	}
 
 	.image_container {
