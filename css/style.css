@@ -490,7 +490,7 @@ footer {
 	}
 }
 
-	@media screen and (max-width: 425px) and (min-width: 321px) {
+	@media screen and (max-width: 425px) and (min-width: 376px) {
 	.logo {
 	width: 100px;
 	margin-right: 10%;
@@ -519,7 +519,7 @@ footer {
 	}
 
 	.caption_1 {
-		padding-right: 50%;
+		padding-right: 70%;
 		font-size: 15px;
 		line-height: 5px;
 	}
@@ -532,8 +532,9 @@ footer {
 	}
 
 	.caption_2 {
-		font-size: 50px;
+		font-size: 40px;
 		line-height: 50px;
+		padding-right: 20px;
 	}
 
 	.image_container {
@@ -561,10 +562,83 @@ footer {
     position: relative;
     border-bottom: 1px solid #608900;
 
+	}
+
 }
 
 
+	@media screen and (max-width: 375px) and (min-width: 321px) {
+	.logo {
+	width: 100px;
+	margin-right: 10%;
+	}
+
+	.triggered text {
+		font-size: 8px;
+	}
+
+	.wrapper {
+	padding: 2%;
+	/*margin-bottom: 100px;*/
+
+	}
+
+	#landing_pic {
+    	display: none;
+    }
 	
+   .caption_container {
+    	top: 35%;
+  		left: 40%;
+  		transform: translate(-50%, -50%);
+  		text-align: center;
+  		padding-top: 20%;
+	}
+
+	.caption_1 {
+	display: none;
+	}
+
+	.caption_3 {
+		font-size: 15px;
+		line-height: 10px;
+		padding-right: 200px;
+		width: 400px;
+	}
+
+	.caption_2 {
+		font-size: 40px;
+		line-height: 50px;
+		padding-right: 20px;
+	}
+
+	.image_container {
+		height: 70%;
+	}
+
+	.caption_container {
+		margin-top: 10%;
+	}
+
+	.text {
+		font-size: 20px;
+	}
+
+	.skills_content {
+
+	background: url("../logo/logo_final.png");
+    /* Full height */
+    height: 60vh; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    border-bottom: 1px solid #608900;
+
+	}
+
 }
 
 	@media screen and (max-width: 320px) {
@@ -572,6 +646,16 @@ footer {
 	display: none;
 	margin-right: 5%;
 	}
+
+	.footer_container h2 {
+		font-size: 10px;
+	}
+
+
+	.text-center {
+		font-size: 20px;
+	}
+
 
 	.triggered text {
 		font-size: 10px;
@@ -595,20 +679,20 @@ footer {
 	}
 
 	.caption_1 {
-		font-size: 15px;
-		line-height: 15px;
-		padding-right: 50%;
+		display: none;
 	}
 
 	.caption_3 {
 		font-size: 10px;
 		line-height: 5px;
+		padding-right: 10%;
 
 	}
 
 	.caption_2 {
-		font-size: 50px;
-		line-height: 50px;
+		font-size: 35px;
+		line-height: 45px;
+		padding-right: 10%;
 	}
 
 	.hire_btn {
