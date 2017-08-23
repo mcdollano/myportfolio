@@ -42,7 +42,9 @@ a:visited {
 	font-size: 25px;
 	padding: 10px;
 	color: white;
-	font-family: 'Open Sans', sans-serif;
+		font-family: 'Press Start 2P', cursive;
+
+	/*font-family: 'Open Sans', sans-serif;*/
 }
 
 .image_container {
@@ -137,12 +139,14 @@ a:visited {
 }
 
 .caption_2 {
-	font-size: 70px;
-	font-family: 'Open Sans', sans-serif;
+	font-size: 50px;
+	font-family: 'Press Start 2P', cursive;
 }
 
 .caption_3 {
 	font-size: 30px;
+
+
 }
 
 .hire_btn {
@@ -316,7 +320,8 @@ a:visited {
 }
 
 .footer_container h2 {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Press Start 2P', cursive;
+
 }
 
 .fa-google-plus{
